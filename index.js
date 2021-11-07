@@ -6,6 +6,6 @@ app.get('/',(req,res)=>{
     res.send('hi');
 });
 
-app.listen(8080,()=>{
-    console.log('8080 is started');
+app.listen(80,()=>{
+    console.log('80 is started');
 });

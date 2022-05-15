@@ -13,3 +13,7 @@ app.get('/home',(req,res)=>{
 app.listen(81,()=>{
     console.log('81 is started');
 });
+
+app.post('/req',(req,res)=>{
+    res.send(req.query)
+})
